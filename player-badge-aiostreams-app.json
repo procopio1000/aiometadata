@@ -1,6 +1,14 @@
 {
   "badges": [
     {
+      "label": "576p",
+      "match": "\\b576p\\b",
+      "group": "resolution",
+      "fields": [
+        "resolution"
+      ]
+    },
+    {
       "label": "4K",
       "match": "\\b(2160p|4k)\\b",
       "image": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMiIgaGVpZ2h0PSIxNCIgdmlld0JveD0iMCAwIDIyIDE0Ij4KICA8cGF0aCBkPSJNNS4wMCw3LjgzIEw4LjcyLDIuNTAgTDEwLjA1LDIuNTAgTDEwLjA1LDcuNTYgTDExLjAwLDcuNTYgTDExLjAwLDguNjIgTDEwLjA1LDguNjIgTDEwLjA1LDEwLjUwIEw4Ljc3LDEwLjUwIEw4Ljc3LDguNjIgTDUuMDAsOC42MiBMNS4wMCw3LjgzIFogTTYuNTAsNy41NiBMOC43Nyw3LjU2IEw4Ljc3LDQuMzAgTDguNjYsNC40NyBMNi41MCw3LjU2IFogTTE1LjMwLDEwLjUwIEwxMi45NSw3LjAzIEwxMi4wNiw4LjAwIEwxMi4wNiwxMC41MCBMMTAuNzcsMTAuNTAgTDEwLjc3LDIuNTAgTDEyLjA2LDIuNTAgTDEyLjA2LDYuMjcgTDEyLjgxLDUuMzEgTDE1LjExLDIuNTAgTDE2Ljc1LDIuNTAgTDEzLjg0LDYuMDMgTDE2LjkxLDEwLjUwIEwxNS4zMCwxMC41MCBaIiBmaWxsPSJ3aGl0ZSIvPgo8L3N2Zz4K",
@@ -219,14 +227,6 @@
       "color": "#FFFFFF",
       "background": "#00000000",
       "border": "#FFFFFFFF"
-    },
-    {
-      "label": "576p",
-      "match": "\\b576p\\b",
-      "group": "resolution",
-      "fields": [
-        "resolution"
-      ]
     }
   ]
 }
