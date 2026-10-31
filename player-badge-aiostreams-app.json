@@ -51,10 +51,7 @@
     {
       "label": "576p",
       "match": "\\b576p\\b",
-      "group": "resolution",
-      "fields": [
-        "resolution"
-      ]
+      "group": "resolution"
     },
     {
       "label": "480p",
